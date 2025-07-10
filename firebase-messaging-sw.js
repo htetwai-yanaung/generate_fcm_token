@@ -13,9 +13,9 @@ firebase.initializeApp({
 
 const messaging = firebase.messaging();
 
-messaging.onBackgroundMessage((payload) => {
-  console.log("[Service Worker] Background message received", payload);
-  // self.registration.showNotification(payload.notification.title, {
-  //   body: payload.notification.body,
-  // });
-});
+// messaging.onBackgroundMessage((payload) => {
+//   console.log("[Service Worker] Background message received", payload);
+//   self.registration.showNotification(payload.notification.title, {
+//     body: payload.notification.body,
+//   });
+// });
